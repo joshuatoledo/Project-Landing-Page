@@ -114,15 +114,15 @@ ul a {
 
 .pictures {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   margin-bottom : 32px;
 }
 
 .card {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 200px;
 }
 
 .item { 

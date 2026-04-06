@@ -148,3 +148,23 @@ img {
 .card div {
   color:gray;
 }
+
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  background-color: oklch(50.687% 0.00493 271.323);
+}
+
+.quote-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 340px;
+}
+
+.author {
+  align-self: flex-end;
+}

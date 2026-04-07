@@ -4,14 +4,14 @@ body {
   flex-direction: column;
 }
 .logo {
-  font-size: 30px; 
+  font-size: 24px; 
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  color:white;
+  font-family: "Roboto";
+  color:#F9FAF8;
 }
 
 .header-container {
-  background-color: oklch(21% 0.034 264.665);
+  background-color: #1F2937;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,8 +38,9 @@ ul {
 
 ul a {
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  font-family: "Roboto";
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 .header-content {
@@ -62,15 +63,23 @@ ul a {
   color: white;
 }
 
-.text-content h1, .text-content p {
-  margin: 1px;
-  color: white;
+.text-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin : 0;
 }
 
-.button {
+.text-content p {
+  margin: 1px;
+  color: #E5E7EB;
+  font-size : 18px;
+}
+
+.text-content button {
   padding: 8px 16px;
-  background-color: #007bff;
-  color: white;
+  background-color: #3882F6;;
+  color: #F9FAF8;
   border: none;
   border-radius: 4px;
   width: fit-content;
@@ -99,9 +108,10 @@ ul a {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  color:#1F2937;
   margin-bottom : 16px;
   padding: 16px;
-  font-family:Arial, Helvetica, sans-serif
+  font-family:"Roboto";
 }
 
 .information-container {
@@ -155,14 +165,21 @@ img {
   justify-content: center;
   align-items: center;
   padding: 32px;
-  background-color: oklch(50.687% 0.00493 271.323);
+  background-color : #E5E7EB;
 }
 
 .quote-block {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  max-width: 340px;
+  max-width: 800px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: 300;
 }
 
 .author {
@@ -180,7 +197,7 @@ img {
   display: flex;
   justify-content: space-around; 
   align-items: center;
-  background-color: oklch(67.291% 0.14552 237.663);                
+  background-color: #3882F6;           
   border-radius: 8px;
   max-width: 800px;
   width: 100%;           
@@ -200,15 +217,16 @@ img {
 .modal-text p {
   margin: 0;
   color: white;
+  font-family: Roboto;
 }
 
 .subject {
   font-size: 12px;
 }
 
-.button {
+.modal button {
   padding: 4px 24px;
-  background-color: #007bff;
+  background-color: #3882F6;;    
   color: rgb(248, 248, 248);
   border: 2px solid white;
   border-radius: 4px;
@@ -218,7 +236,7 @@ img {
 
 
 .footer-container {
-  background-color: oklch(21% 0.034 264.665);
+  background-color: #1F2937;
   display: flex;
   justify-content: center;
   align-items: center;
